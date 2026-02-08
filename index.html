@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+
+<form>
+  <fieldset>
+    <legend>Personal Information:</legend>
+    
+    <label>First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    
+    <label>Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    
+    <label>Gender:</label><br>
+    <input type="radio" name="subject" value="Male"> Male<br>
+    <input type="radio" name="subject" value="Female"> Female<br>
+    <input type="radio" name="subject" value="Other"> Other<br><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+    
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday"><br><br>
+    
+    <label for="address">Address:</label><br>
+    <textarea rows="5" cols="50" name="description" id="address">Enter description here...</textarea><br><br>
+    
+    <label for="fileupload">Image:</label><br>
+    <input type="file" id="fileupload" name="fileupload" accept="image/*" /><br><br>
+
+    <!-- New Fields -->
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone"><br><br>
+
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+      <option value="">Select Country</option>
+      <option value="India">India</option>
+      <option value="Pakistan">Pakistan</option>
+      <option value="USA">USA</option>
+      <option value="UK">UK</option>
+      <option value="Other">Other</option>
+    </select><br><br>
+
+    <label>Skills:</label><br>
+    <input type="checkbox" name="skills" value="HTML"> HTML<br>
+    <input type="checkbox" name="skills" value="CSS"> CSS<br>
+    <input type="checkbox" name="skills" value="JavaScript"> JavaScript<br><br>
+
+    <label for="level">Course Level:</label>
+    <select id="level" name="level">
+      <option value="Beginner">Beginner</option>
+      <option value="Intermediate">Intermediate</option>
+      <option value="Advanced">Advanced</option>
+    </select><br><br>
+
+    <center>
+      <input type="submit" name="submit" value="Submit" />
+      <input type="reset" name="reset" value="Reset" />
+    </center>
+    
+  </fieldset>
+</form>
+
+</html>
